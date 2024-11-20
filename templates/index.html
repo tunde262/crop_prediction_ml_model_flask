@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- Metadata for the page -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ML API</title>
+
+    <!-- Link to Google Fonts for custom fonts -->
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+    <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 </head>
 <body>
+    <!-- Main content container for the form -->
     <div class="login">
         <h1>Crop Prediction Model</h1>
+
+        <!-- Form for submitting input data to predict crop -->
         <form action="{{url_for('predict')}}" method="post">
+            <!-- Input fields for each required feature -->
             <input type="text" name="Nitrogen" placeholder="Nitrogen" required="required" />
             <input type="text" name="Phosphorus" placeholder="Phosphorus" required="required" />
             <input type="text" name="Potassium" placeholder="Potassium" required="required" />
@@ -23,9 +33,11 @@
             <input type="text" name="pH" placeholder="pH" required="required" />
             <input type="text" name="Rainfall" placeholder="Rainfall" required="required" />     
             
+            <!-- Submit button to send the form data -->
             <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
         </form>
 
+        <!-- Display the prediction result -->
         <h1 id="prediction">
             {{ prediction_text }}
         </h1>
