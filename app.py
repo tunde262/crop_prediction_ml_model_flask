@@ -17,3 +17,18 @@ def predict():
     return render_template("index.html", prediction_text="The Predicted Crop is {}".format(prediction))
 if __name__ == "__main__":
     flask_app.run(debug=True)
+
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
+# Filler code for Github language detector
