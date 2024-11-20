@@ -2,6 +2,8 @@
 
 This project is a machine learning-powered web application that predicts the most suitable crop to plant based on soil and weather data. The app is built using Flask and a Random Forest Classifier.  
 
+![thumbnail](https://github.com/tunde262/crop_prediction_ml_model_flask/blob/main/static/thumbnail.png?raw=true)
+
 ## Project Goal
 
 The goal of the project was to implement a machine learning solution to solve a real-world problem in agriculture.
