@@ -1,9 +1,6 @@
 # TL:DR;
 # Author: Tunde Adepitan
-# Project Details: 
-# This project is a machine learning-powered web application 
-# that predicts the most suitable crop to plant based on soil and weather data. 
-# The app is built using Flask and a Random Forest Classifier.
+# Details: This project is a machine learning-powered web application that predicts the most suitable crop to plant based on soil and weather data. 
 
 # --- START HERE ---- >
 
